@@ -9,7 +9,8 @@ Learning in **CSE 15L** is *interesting*!
 >* Watch a cute video: `options below`
 
 1. [Bunny Video](https://www.youtube.com/watch?v=hDJkFLnmFHU)
-2. [To Brighten Your Day](https://www.youtube.com/watch?v=X-o171qAaUY)
+2. [Cat Video](https://www.youtube.com/watch?v=X-o171qAaUY)
+3. [Duckling Video](https://www.youtube.com/watch?v=e3PdcKcUvDY)
 
 ```
 Cat Picture Below
