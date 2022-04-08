@@ -1,7 +1,7 @@
 # Christine's First Git Page
 Learning in **CSE 15L** is *interesting*!
 
-***
+---
 ## Fun Stuff
 
 >* Read a good book
