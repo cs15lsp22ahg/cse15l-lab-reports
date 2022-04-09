@@ -30,8 +30,11 @@
 
 ## Setting an SSH Key
 >![Image](./LoggingWithoutPassword.png)
->- 
-
+>- I generated an SSH key on my computer using the ssh-keygen -t ed25519 command without a passphrase.
+>- I then tried to log in, and with the key, it did not require a password to log in to the host computer. 
 
 ## Optimizing Remote Running
->![Image](./image.PNG)
+>![Image](./Optimizing.png)
+>- Logging into the host computer without the password is significantly quicker than typing in the password without being able to read it. 
+>- Running files without logging in and exiting the host computer is quicker than spending the time to log in, send commands, and exit.
+>- Containing multiple lines of code separated by semicolons is also easier than logging in and typing in commands on separate lines.
