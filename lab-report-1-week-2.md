@@ -13,7 +13,7 @@
 >- The password chosen before downloading VS Code worked.
 
 ## Trying Some Commands
-![Image](./TryingSomeCommands.png)
+>![Image](./TryingSomeCommands.png)
 >I tried the following commands:
 ```
 1. cd      - this did nothing
@@ -23,14 +23,14 @@
 ```
 
 ## Moving Files with `scp`
-![Image](./SCPTest.png)
+>![Image](./SCPTest.png)
 >- I added the file WhereAmI.java on my computer.
 >- I compiled it and then used scp to transfer it to the ieng6.ucsd.edu host computer.
 >- I then logged in to the host computer and ran the program on it.
 
 ## Setting an SSH Key
-![Image](./LoggingWithoutPassword.png)
+>![Image](./LoggingWithoutPassword.png)
 
 
 ## Optimizing Remote Running
-![Image](./image.PNG)
+>![Image](./image.PNG)
