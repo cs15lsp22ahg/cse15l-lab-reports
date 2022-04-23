@@ -3,12 +3,12 @@
 ## __Code Change 1__
 >[Commit with Fix Part 1](https://github.com/katieki/markdown-parser/commit/60e824a454c660a0e3602ecc67dc65e53082ff69)   
 >[Commit with Fix Part 2](https://github.com/katieki/markdown-parser/commit/4bd8bf81655694b30db092140d56f78b7316ee4b)
->![Image](./Lab2Images/Error1CodeChangev2.png)
+>![Image](./Lab2Images/Error1/Error1CodeChangev2.png)
 >Note: 2 edits were made to fix this error
 
 >[Commit with Error](https://github.com/katieki/markdown-parser/commit/5f7bf972d79864ea642c971cab6749c39eb4c445)
 >### Error Message:
->![Image](./Lab2Images/BreakingError1.png)
+>![Image](./Lab2Images/Error1/BreakingError1.png)
 
 >Test File used:
 >![Image](./Lab2Images/TestFileError1.png)
@@ -28,7 +28,7 @@
 >```[https://something.com, ./Screen%20Shot%202022-04-15%20at%203.14.56%20PM.png, some-thing.html, gmail.com]```
 
 >Test File used:
->![Image](./Lab2Images/TestFileError2.png)
+>![Image](./Lab2Images/Error2/TestFileError2.png)
 >Corrected Output:   
 >```[https://something.com, some-thing.html, gmail.com]```
 
@@ -38,7 +38,7 @@
 
 ## __Code Change 3__
 >[Commit with Fix](https://github.com/katieki/markdown-parser/commit/08b1902554e6e590be42e2b77be7cabdfae01bbc)   
->![Image](./Lab2Images/Error3CodeChange.png)
+>![Image](./Lab2Images/Error3/Error3CodeChange.png)
 
 >[Commit with IncorrectOutput](https://github.com/katieki/markdown-parser/commit/8747fdc45a7e70d63399ccf797944d69cb29b4a7)
 >### Incorrect Output:
@@ -46,7 +46,7 @@
 >```[link2](some-thing.html, gmail.com]```
 
 >Test File used:
->![Image](./Lab2Images/TestFileError3.png)
+>![Image](./Lab2Images/Error3/TestFileError3.png)
 >Corrected Output:   
 >```[some-thing.html, gmail.com]```
 
