@@ -10,9 +10,9 @@
 >### Error Message:
 >![Image](./Lab2Images/Error1/BreakingError1.png)
 
->Test File used:
->![Image](./Lab2Images/Error1/TestFileError1.png)
->Corrected Output:   
+>Test File used:   
+>![Image](./Lab2Images/Error1/TestFileError1.png)   
+>Corrected Output:      
 >```[https://something.com, some-thing.html]```
 
 >__Bug:__ Code was not designed to accommodate cases where there was anything after the last link, resulting in an unintended infinite loop.  
