@@ -11,7 +11,7 @@
 >![Image](./Lab2Images/Error1/BreakingError1.png)
 
 >Test File used:
->![Image](./Lab2Images/TestFileError1.png)
+>![Image](./Lab2Images/Error1/TestFileError1.png)
 >Corrected Output:   
 >```[https://something.com, some-thing.html]```
 
@@ -27,8 +27,8 @@
 >### Incorrect Output
 >```[https://something.com, ./Screen%20Shot%202022-04-15%20at%203.14.56%20PM.png, some-thing.html, gmail.com]```
 
->Test File used:
->![Image](./Lab2Images/Error2/TestFileError2.png)
+>Test File used:   
+>![Image](./Lab2Images/Error2/TestFileError2.png)   
 >Corrected Output:   
 >```[https://something.com, some-thing.html, gmail.com]```
 
@@ -40,16 +40,16 @@
 >[Commit with Fix](https://github.com/katieki/markdown-parser/commit/08b1902554e6e590be42e2b77be7cabdfae01bbc)   
 >![Image](./Lab2Images/Error3/Error3CodeChange.png)
 
->[Commit with IncorrectOutput](https://github.com/katieki/markdown-parser/commit/8747fdc45a7e70d63399ccf797944d69cb29b4a7)
+>[Commit with Incorrect Output](https://github.com/katieki/markdown-parser/commit/8747fdc45a7e70d63399ccf797944d69cb29b4a7)
 >### Incorrect Output:
 >```[https://something.com```   
 >```[link2](some-thing.html, gmail.com]```
 
->Test File used:
->![Image](./Lab2Images/Error3/TestFileError3.png)
+>Test File used:   
+>![Image](./Lab2Images/Error3/TestFileError3.png)   
 >Corrected Output:   
 >```[some-thing.html, gmail.com]```
 
->__Bug:__ Failed link syntax would still register as a link.
+>__Bug:__ Failed link syntax would still register as a link.   
 >__Symptom:__ When one parenthesis was removed it still registered whatever came after as a link.    
 >__Failure-inducing Input:__ If there was a parenthesis removed it would still find the next parenthesis and include everything between as a link.
